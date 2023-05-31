@@ -1,0 +1,123 @@
+1 Arrow Function
+From Priya B to Everyone:  03:47 PM
+2. Let and Const
+3. Default Parameters
+4. Spread operators
+5. Rest Parameters
+6. Set
+7 Map
+8.class
+
+
+
+where to use
+1.array Fuction
+Array of functions in JavaScript
+Given an array containing functions and the task is to access its element in different ways using JavaScript.
+
+Approach:
+
+Declare an array of functions.
+The array of function works with indexes like an array function.
+ 
+
+2.Let and const:
+What is Let in Javascript?
+The Let keyword in javascript is a more advanced version of the Var keyword. 
+Even though both the keyword are used for variable declaration in javascript, the variable declared has a different meaning. 
+Var as we know already declares a variable that is globally accessible or function scoped but variables declared using the Let keyword are pure local variables.
+ These variables are accessible only inside the block statement or expression.
+
+
+const:
+The Const keyword holds a special meaning in javascript as it is used for declaring the constant variable. 
+
+4.deafault :
+Default Parameters
+In JavaScript, function parameters default to undefined. However, it's often useful to set a different default value. This is where default parameters can help.
+
+
+
+5.Rest Parameters
+
+Rest parameter is an improved way to handle function parameter, allowing us to more easily handle various input as parameters in a function.
+ The rest parameter syntax allows us to represent an indefinite number of arguments as an array.
+ With the help of a rest parameter a function can be called with any number of arguments, no matter how it was defined. 
+Rest parameter is added in ES2015 or ES6 which improved the ability to handle parameter.
+
+Note: In order to run the code in this article make use of the console provided by the browser or use an online tool like repl.it.
+
+Syntax:
+
+function functionname[...parameters]//... is the rest parameter
+{
+statement;
+}
+Note: When … is at the end of function parameter, it is the rest parameter. 
+
+
+
+
+
+
+map :
+Map is a collection of key-value pairs where the key can be of any type. Map remembers the original order in which the elements were added to it, 
+which means data can be retrieved in the same order it was inserted in.
+
+In other words, Map has characteristics of both Object and Array:
+
+Like an object, it supports the key-value pair structure.
+Like an array, it remembers the insertion order.
+How to Create and Initialize a Map in JavaScript
+A new Map can be created like this:
+
+const map = new Map();
+
+set:
+
+A set is a collection of items which are unique i.e no element can be repeated. Set in ES6 are ordered: elements of the set can be iterated in the insertion order. 
+Set can store any types of values whether primitive or objects.
+
+
+class:
+
+++++/Introduction of new version of JavaScript (ES6) introduced the use of classes instead of functions.Classes are similar to functions.They use class keyword instead of function keyword. 
+They use constructor method to initialise. 
+
+Syntax:
+
+class classname {
+  constructor(parameter) {
+    this.classname = parameter;
+  }
+}
+
+
+++++++/A JavaScript class is a type of function. Classes are declared with the classkeyword.
+ We will use function expression syntax to initialize a function and class expression syntax to initialize a class. 
+We can access the [[Prototype]] of an object using the Object.getPrototypeOf() method. 
+Let’s use that to test the empty functionwe created. We can also use that method on the classwe just created. 
+The code declared with function and class both return a function [[Prototype]].
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
